@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94bdffaa-2a9c-4d2c-a4ce-2e5d2ebb5659" name="Changes" comment="Mido Junior Backend coding exercise&#10;- 1st step: skeleton build.">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.pre-commit-config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702333352128</updated>
-      <workItem from="1702333353881" duration="5737000" />
+      <workItem from="1702333353881" duration="6078000" />
     </task>
     <task id="LOCAL-00001" summary="Mido Junior Backend coding exercise&#10;- 1st step: skeleton build.">
       <option name="closed" value="true" />
