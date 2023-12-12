@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94bdffaa-2a9c-4d2c-a4ce-2e5d2ebb5659" name="Changes" comment="Mido Junior Backend coding exercise&#10;- 1st step: skeleton build." />
+    <list default="true" id="94bdffaa-2a9c-4d2c-a4ce-2e5d2ebb5659" name="Changes" comment="Mido Junior Backend coding exercise&#10;- 1st step: skeleton build.">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702333352128</updated>
-      <workItem from="1702333353881" duration="5678000" />
+      <workItem from="1702333353881" duration="5737000" />
     </task>
     <task id="LOCAL-00001" summary="Mido Junior Backend coding exercise&#10;- 1st step: skeleton build.">
       <option name="closed" value="true" />
@@ -74,7 +76,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702338932387</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mido Junior Backend coding exercise&#10;- 1st step: skeleton build.">
+      <option name="closed" value="true" />
+      <created>1702339181902</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702339181902</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
