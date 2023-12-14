@@ -67,16 +67,13 @@ class SeatingManager:
         # Iterate over the list of sets in order to find available seats that coincides with group size.
         for i in range(seats_needed, config.MAX_TABLE_SIZE):
             current_set = self.sets[i]
-            if not current_set:
+            if len(current_set) > 0:
                 table_id = current_set.pop()
                 table_id_new_set = i - seats_needed
                 self.sets[table_id_new_set].add(table_id)
-                break
-
-        # Update group's instance to store table_id and modify status.
-        if table_id is not None:
-            group.update_status(status=True, table_id=table_id)
-            return True
+                group.update_status(status=True, table_id=table_id)
+                self.tables.get(table_id).set_empty_seats(empty_seats=table_id_new_set)
+                return True
 
         return False
 
@@ -95,7 +92,7 @@ class SeatingManager:
         table_id = self.locate(group=group)
 
         # Assert that info is correct so far
-        assert table_id is None, "The group has not yet been seated."
+        assert table_id is not None, "The group has not yet been seated."
         assert (
             seats_empty <= config.MAX_GROUP_SIZE
         ), "The group is too large! Error in some operation!"
@@ -107,6 +104,7 @@ class SeatingManager:
                 table_free_seats = i + seats_empty
                 self.sets[i].remove(table_id)
                 self.sets[table_free_seats].add(table_id)
+                self.tables.get(table_id).set_empty_seats(empty_seats=table_free_seats)
                 group.restore_status()
                 return True
 

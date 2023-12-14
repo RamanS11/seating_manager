@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94bdffaa-2a9c-4d2c-a4ce-2e5d2ebb5659" name="Changes" comment="Mido Junior Backend coding exercise&#10;- 1st step: skeleton build.">
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/seating_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/seating_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table.py" beforeDir="false" afterPath="$PROJECT_DIR$/table.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +105,9 @@
       <workItem from="1702422901654" duration="8487000" />
       <workItem from="1702488027712" duration="522000" />
       <workItem from="1702488923087" duration="918000" />
-      <workItem from="1702505733248" duration="6225000" />
+      <workItem from="1702505733248" duration="9191000" />
+      <workItem from="1702546087435" duration="78000" />
+      <workItem from="1702546221636" duration="1744000" />
     </task>
     <task id="LOCAL-00001" summary="Mido Junior Backend coding exercise&#10;- 1st step: skeleton build.">
       <option name="closed" value="true" />
@@ -147,7 +146,18 @@
     <MESSAGE value="Mido Junior Backend coding exercise&#10;- 1st step: skeleton build." />
     <option name="LAST_COMMIT_MESSAGE" value="Mido Junior Backend coding exercise&#10;- 1st step: skeleton build." />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/seating_manager.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mido_backend$main.coverage" NAME="main Coverage Results" MODIFIED="1702511531974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mido_backend$main.coverage" NAME="main Coverage Results" MODIFIED="1702547804322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

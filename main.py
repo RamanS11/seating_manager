@@ -85,8 +85,14 @@ def main(
         seating_manager.arrives(group=g)
 
     logging.info("Starting seating manager (Leave method)")
+    not_Seat = 0
     for g in groups:
-        seating_manager.leaves(group=g)
+        try:
+            seating_manager.leaves(group=g)
+        except AssertionError as e:
+            logging.error(e)
+            not_Seat += 1
+    print(not_Seat)
 
 
 if __name__ == "__main__":
